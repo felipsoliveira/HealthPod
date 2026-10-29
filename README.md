@@ -8,6 +8,17 @@ HealthPod asks a deliberately falsifiable question:
 
 This repository is a research platform, not a claim that any inhaled product is safe.
 
+## MVP-0 — Experimental bench (updated 2026-10-28)
+
+The **first operational MVP is an enclosed laboratory aerosol-measurement bench**, not a homemade vaping device and not a validated inhalation product. A commercial vibrating-mesh nebulizer (VMN) will be used first to develop reproducible optical, gravimetric and environmental measurements with a simple aqueous reference. Surface Acoustic Wave (SAW) remains the leading research candidate for a later, controlled comparison.
+
+- [MVP-0 blueprint v0.2](research/BLUEPRINT_V0.md) — architecture, goals, scope and decision gates.
+- [MVP-0 bench protocol v0.2](research/MVP0_BENCH_PROTOCOL.md) — controls, instrumentation, test sequence, measurements and safety stopping rules.
+- [Blank MVP-0 data template](research/MVP0_RUN_TEMPLATE.csv) — one row per experimental replicate.
+- [Formulation evidence map](research/FORMULATION-CANDIDATES.md) — evaluation of candidate liquid classes, **not** an inhalation recipe.
+
+**Current stage:** documentation ready for engineering and institutional safety review. No physical prototype, experiment, inhalation test or safety validation is claimed.
+
 ## Current strategy
 
 We compare aerosol-generation mechanisms under the same physical, chemical and biological framework. Our first technology candidate is **Surface Acoustic Wave (SAW) atomization** because it can generate dense micron-scale aerosols without conventional resistive-coil evaporation and has an established pulmonary-drug-delivery literature.
